@@ -4,8 +4,8 @@
 #include <LoRa.h>
 
 // WiFi credentials
-const char* ssid = "Alamak";
-const char* password = "Alamak12e1";
+const char* ssid = "NAMA WIFI ANDA";
+const char* password = "PASSWORD WIFI ANDA";
 
 // Web server
 WebServer server(80);
@@ -1194,3 +1194,4 @@ void handleStatus() {
   
   server.send(200, "application/json", json);
 }
+
